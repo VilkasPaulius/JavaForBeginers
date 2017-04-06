@@ -13,7 +13,7 @@ public class Uzduotis_1_3 {
         do{
             System.out.println("Iveskite skaiciu");
             sk = sc.nextInt();
-            suma += sk;
+            suma += sk; //prie sumos pridedam naujai ivesta skaiciu
         }while (sk!=0);
         System.out.println("Ivestu skaiciu suma: "+suma);
     }
