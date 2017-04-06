@@ -19,7 +19,7 @@ public class Uzduotis_1_4 {
                 suma += sk; //prie sumos pridedam naujai ivesta skaiciu
             }catch (InputMismatchException a){
                 System.out.println("Ivedete ne skaiciu");
-                continue;
+                sc.next(); //atlaisvina buferi - be sitos eilutes gaunasi amzinas ciklas
             }
         }while (sk!=0);
         System.out.println("Ivestu skaiciu suma: "+suma);
