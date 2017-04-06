@@ -18,6 +18,6 @@ public class Uzduotis_1_2 {
                 System.out.println(zodis);
                 System.out.println("-----------");
             }
-        }while (zodis.equals("pabaiga")==false);
+        }while (!zodis.equals("pabaiga"));
     }
 }
