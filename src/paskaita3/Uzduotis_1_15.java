@@ -13,7 +13,7 @@ public class Uzduotis_1_15 {
     }
 
 
-    private static void raides (){
+    private static void raides() {
         Scanner sc = new Scanner(System.in);
         String zodis;
         char raide;
@@ -22,18 +22,14 @@ public class Uzduotis_1_15 {
         System.out.println();
         System.out.println("iveskite raide");
         raide = sc.next().charAt(0);
-        int ilg =  zodis.length();
-        //System.out.println(ilg);
+        int ilg = zodis.length();
         int kiek = 0;
-
-        //System.out.println("zodzio raide"+ zodis.charAt(1));
-        for (int i=0; i<zodis.length();i++){
-            if (raide==zodis.charAt(i)){
+        for (int i = 0; i < zodis.length(); i++) {
+            if (raide == zodis.charAt(i)) {
                 kiek++;
             }//ar reikia else?
         }
-        System.out.println("Zodyje "+zodis+" raidziu "+raide+" yra: "+kiek);
-
+        System.out.println("Zodyje " + zodis + " raidziu " + raide + " yra: " + kiek);
 
 
     }
